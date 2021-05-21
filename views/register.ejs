@@ -1,0 +1,20 @@
+<% include ./partials/header.ejs %>
+<link rel="stylesheet" href="../stylesheets/regStyle.css">
+
+<div id="back">
+    <div id="l">
+        <div id="cover"></div>
+    </div>
+    <div id="r">
+        <h2>Join Now</h2>
+        <form action="/create" method="POST">
+            <input type="text" placeholder="username" name="username">
+            <input type="email" placeholder="email" name="email">
+            <input type="name" placeholder="name" name="name">
+            <input type="password" placeholder="password" name="password">
+            <button type="submit">Submit</button>
+        </form>
+        <p>Already register ? <a href="/login">Log In</a></p>
+        <a href="/" id="xx">X</a>
+    </div>
+</div>
